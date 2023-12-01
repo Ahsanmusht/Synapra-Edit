@@ -17,6 +17,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
 
 
     <!-- light gallery js file link -->
@@ -238,7 +240,7 @@
     <section class="about" id="about">
       <h1 class="heading">About <span>Us</span></h1>
       <div class="row">
-        <div id="image-slider" class="splide">
+        <div data-aos="fade-right" data-aos-delay="400" id="image-slider" class="splide">
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide" data-splide-interval="1000">
@@ -254,7 +256,7 @@
           </div>
         </div>
 
-        <div class="content">
+        <div data-aos="fade-left" data-aos-delay="400" class="content">
           <h3>Why Choose Us ?</h3>
           <p>The CPD Standards Office (CPDSO), UK Part of The Professional Development Consortium CPD Provider Logo Activity CPD PROVIDER- 50343.jpg
             The World's Largest & Leading CPD Accreditation
@@ -535,47 +537,47 @@
       <h1 class="heading"><span>CPD</span></h1>
 
       <div class="box-container">
-        <div class="box">
+        <div data-aos="fade-up" data-aos-delay="400" class="box">
           
           <img src="./image/cpd/aAipcb.webp" alt="">
 
         </div>
 
-        <div class="box">
+        <div data-aos="fade-up" data-aos-delay="400" class="box">
           
             <img src="./image/cpd/adQAaT.webp" alt="">
   
           </div>
   
 
-          <div class="box">
+          <div data-aos="fade-up" data-aos-delay="400" class="box">
           
             <img src="./image/cpd/atRtQQ.webp" alt="">
   
           </div>
-          <div class="box">
+          <div data-aos="fade-up" data-aos-delay="400" class="box">
           
             <img src="./image/cpd/ofkAjA.webp" alt="">
   
           </div>
-          <div class="box">
+          <div data-aos="fade-up" data-aos-delay="400" class="box">
           
             <img src="./image/cpd/rbQnja.webp" alt="">
   
           </div>
 
-          <div class="box">
+          <div data-aos="fade-up" data-aos-delay="400" class="box">
           
             <img src="./image/cpd/aAipcb.webp" alt="">
   
           </div>
-          <div class="box">
+          <div data-aos="fade-up" data-aos-delay="400" class="box">
           
             <img src="./image/cpd/adQAaT.webp" alt="">
   
           </div>
 
-          <div class="box">
+          <div data-aos="fade-up" data-aos-delay="400" class="box">
           
             <img src="./image/cpd/rbQnja.webp" alt="">
   
@@ -634,6 +636,9 @@
 
     <!-- swiper js file link -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+
     <script src="
     https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js
     "></script>
@@ -672,5 +677,13 @@
 });
 
     </script>
+
+<script>
+
+  AOS.init({
+      duration: 800,
+  });
+
+</script>
   </body>
 </html>

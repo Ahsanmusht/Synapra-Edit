@@ -18,6 +18,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
 
     <!-- light gallery js file link -->
 
@@ -154,7 +156,7 @@
 <!-- cpd section starts -->
 
 
-<section class="our-vision">
+<section data-aos="fade-right" data-aos-delay="400" class="our-vision">
 
     <h1 class="heading"><span>CPD</span></h1>
 
@@ -177,7 +179,7 @@
 
 </section>
 
-<section class="our-vision">
+<section data-aos="fade-left" data-aos-delay="400" class="our-vision">
 
 
     <div class="row">
@@ -200,7 +202,7 @@
 
 </section>
 
-<section class="our-vision">
+<section data-aos="fade-right" data-aos-delay="400" class="our-vision">
 
 
     <div class="row">
@@ -224,7 +226,7 @@
 
 </section>
 
-<section class="our-vision">
+<section data-aos="fade-left" data-aos-delay="400" class="our-vision">
 
 
     <div class="row">
@@ -335,6 +337,9 @@
 
   <!-- swiper js file link -->
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+
   <script src="
   https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js
   "></script>
@@ -373,5 +378,13 @@ breakpoints: {
 });
 
   </script>
+
+<script>
+
+  AOS.init({
+      duration: 800,
+  });
+
+</script>
 </body>
 </html>

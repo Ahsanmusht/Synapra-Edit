@@ -18,6 +18,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
 
     <!-- light gallery js file link -->
 
@@ -155,7 +157,7 @@
     <section class="about" id="about">
       <h1 class="heading">About <span>Us</span></h1>
       <div class="row">
-        <div id="image-slider" class="splide">
+        <div data-aos="fade-right" data-aos-delay="400" id="image-slider" class="splide">
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide" data-splide-interval="1000">
@@ -171,7 +173,7 @@
           </div>
         </div>
 
-        <div class="content">
+        <div data-aos="fade-left" data-aos-delay="400" class="content">
           <h3>Why Choose Us ?</h3>
           <p>The CPD Standards Office (CPDSO), UK Part of The Professional Development Consortium CPD Provider Logo Activity CPD PROVIDER- 50343.jpg
             The World's Largest & Leading CPD Accreditation
@@ -192,14 +194,14 @@
 
     <!-- our vision section starts -->
 
-    <section class="our-vision">
+    <section  class="our-vision">
 
         <h1 class="heading">Our <span>Vision</span></h1>
 
         <div class="row">
 
 
-            <div class="content">
+            <div data-aos="fade-up" data-aos-delay="400" class="content">
 
                 <h3>OUR VISION</h3>
                 <p>We envision fastening togrther to outshine the wisdom</p>
@@ -207,7 +209,7 @@
                 <p>Synapra Srrive to support the project through Skills-based technological advancements with Commitment, Excellence, Innovation & Integrity in a value-based enviromrnt.</p>
 
             </div>
-            <div class="image">
+            <div data-aos="fade-up" data-aos-delay="400" class="image">
 
                 <img src="./image/bootcamp/card-2.jpg" alt="">
 
@@ -222,13 +224,13 @@
 
         <div class="row">
 
-            <div class="image">
+            <div data-aos="fade-up" data-aos-delay="400" class="image">
 
                 <img src="./image/bootcamp/card-3.jpg" alt="">
 
             </div>
 
-            <div class="content">
+            <div data-aos="fade-up" data-aos-delay="400" class="content">
 
                 <h3>OUR PHILOSOPHY</h3>
                 <p>We pirsure the mission to equip our generation with active & innovative modern skills. We promote an environment where success is achieved thorugh professional Development.. Synapra instills the role of information in congition with technological prespective.</p>
@@ -324,6 +326,9 @@
 
   <!-- swiper js file link -->
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+
   <script src="
   https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js
   "></script>
@@ -362,6 +367,13 @@ breakpoints: {
 });
 
   </script>
+  <script>
+
+    AOS.init({
+        duration: 800,
+    });
+
+</script>
 </body>
 </html>
 
