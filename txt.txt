@@ -1,0 +1,349 @@
+ <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide slide" style="background: url(./images/1st\ banner.jpg) no-repeat ;">
+
+                    <div class="content">
+
+                        <h3>Syna<span>para</span></h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Enim, repellat veniam aspernatur perspiciatis alias saepe !</p>
+
+                        <a href="#about" class="btn">Get Started</a>
+
+                    </div>
+
+                </section>
+
+                <section class="swiper-slide slide"
+                    style="background: url(./images/cje7_pbyj_180612.jpg) no-repeat ; margin-top: 5rem; ">
+
+                    <div class="content">
+
+                        <h3>Smart Solution of Modern <span>Living</span></h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Enim, repellat veniam aspernatur perspiciatis alias saepe !</p>
+
+                        <a href="#about" class="btn">Get Started</a>
+
+                    </div>
+
+                </section>
+
+                <section class="swiper-slide slide" style="background: url(./images/royal\ banner.jpg) no-repeat ;">
+
+                    <div class="content">
+
+                        <h3>Smart Solution of Modern <span>Living</span></h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Enim, repellat veniam aspernatur perspiciatis alias saepe !</p>
+
+                        <a href="#about" class="btn">Get Started</a>
+
+                    </div>
+
+                </section>
+
+
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    
+    <!-- quality section starts -->
+
+    <section class="quality" id="quality">
+      <h1 class="heading">best <span>quality</span></h1>
+
+      <div class="box-container">
+        <a href="./images/prd 1.jpg" class="box">
+          <div class="image">
+            <img src="./images/prd 1.jpg" alt="" />
+          </div>
+
+          <div class="content">
+            <div class="info">
+              <h3>Quality Product</h3>
+
+              <p>Lorem ipsum, dolor sit amet!</p>
+            </div>
+
+            <i class="fas fa-tags"></i>
+          </div>
+        </a>
+
+        <a href="./images/prd 2.png" class="box">
+          <div class="image">
+            <img src="./images/prd 2.png" alt="" />
+          </div>
+
+          <div class="content">
+            <div class="info">
+              <h3>Quality Product</h3>
+
+              <p>Lorem ipsum, dolor sit amet!</p>
+            </div>
+
+            <i class="fas fa-tags"></i>
+          </div>
+        </a>
+
+        <a href="./images/prd 3.jpg" class="box">
+          <div class="image">
+            <img src="./images/prd 3.jpg" alt="" />
+          </div>
+
+          <div class="content">
+            <div class="info">
+              <h3>Quality Product</h3>
+
+              <p>Lorem ipsum, dolor sit amet!</p>
+            </div>
+
+            <i class="fas fa-tags"></i>
+          </div>
+        </a>
+
+        <a href="./images/prd 4.jpg" class="box">
+          <div class="image">
+            <img src="./images/prd 4.jpg" alt="" />
+          </div>
+
+          <div class="content">
+            <div class="info">
+              <h3>Quality Product</h3>
+
+              <p>Lorem ipsum, dolor sit amet!</p>
+            </div>
+
+            <i class="fas fa-tags"></i>
+          </div>
+        </a>
+
+        <a href="./images/prd 5.jpg" class="box">
+          <div class="image">
+            <img src="./images/prd 5.jpg" alt="" />
+          </div>
+
+          <div class="content">
+            <div class="info">
+              <h3>Quality Product</h3>
+
+              <p>Lorem ipsum, dolor sit amet!</p>
+            </div>
+
+            <i class="fas fa-tags"></i>
+          </div>
+        </a>
+
+        <a href="./images/prd 6.jpg" class="box">
+          <div class="image">
+            <img src="./images/prd 6.jpg" alt="" />
+          </div>
+
+          <div class="content">
+            <div class="info">
+              <h3>Quality Product</h3>
+
+              <p>Lorem ipsum, dolor sit amet!</p>
+            </div>
+
+            <i class="fas fa-tags"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- quality section ends ---->
+
+    <!-- price section starts -->
+
+    <section class="price" id="price">
+      <h1 class="heading">Best <span>Price</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-couch"></i>
+
+          <h3>sofas</h3>
+
+          <div class="cost"><span>$</span>300</div>
+
+          <a href="#" class="btn">Select One</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-bed"></i>
+
+          <h3>Beds</h3>
+
+          <div class="cost"><span>$</span>700</div>
+
+          <a href="#" class="btn">Select One</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-chair"></i>
+
+          <h3>Chairs</h3>
+
+          <div class="cost"><span>$</span>200</div>
+
+          <a href="#" class="btn">Select One</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- price section ends-- -->
+
+    <!-- blogs section starts -->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Blogs</h1>
+
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="./images/prd 2.png" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>Title goes to HomeArie</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+              <a href="#" class="btn">See more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="./images/prd 3.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>Title goes to HomeArie</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+              <a href="#" class="btn">See more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="./images/prd 1.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>Title goes to HomeArie</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+              <a href="#" class="btn">See more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="./images/prd 6.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>Title goes to HomeArie</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+              <a href="#" class="btn">See more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="./images/prd 5.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>Title goes to HomeArie</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+              <a href="#" class="btn">See more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="./images/prd 4.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>Title goes to HomeArie</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+              <a href="#" class="btn">See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs section ends ---->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">Contact <span>Us</span></h1>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.14871731208!2d66.98517411447955!3d24.961054347366876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb36a9a050cef1f%3A0x6be5d88d25ecd0cc!2sRehmat%20Chowk%20Bus%20Stop!5e0!3m2!1sen!2s!4v1662564911294!5m2!1sen!2s"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="#">
+          <h3>Latest Updates</h3>
+
+          <input type="text" placeholder="name" class="box" />
+
+          <input type="email" placeholder="email" class="box" />
+
+          <input type="number" placeholder="number" class="box" />
+
+          <textarea
+            name=""
+            placeholder="message"
+            id=""
+            class="box"
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <input type="submit" value="send now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends ---->
