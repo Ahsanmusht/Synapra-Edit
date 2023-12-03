@@ -80,7 +80,9 @@ window.onscroll = () =>{
       },
   });
 
+  
 
+ 
 //   light gallery work
 
 lightGallery(document.querySelector('.quality .box-container'));
