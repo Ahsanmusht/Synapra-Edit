@@ -8,6 +8,7 @@
 
     <!-- css file link -->
 
+
     <link rel="stylesheet" href="./scss/app.css" />
 <!-- swiper cdn link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -33,6 +34,10 @@
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css"
     />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
     <!-- <script>
         document.addEventListener( 'DOMContentLoaded', function () {
             new Splide( '#image-slider' ).mount();
@@ -57,7 +62,7 @@
         <a href="./services.html">services</a>
         <a href="./our-team.html">our team</a>
         <a href="./contact-us.html">contact us</a>
-        <a href="#blog">blog</a>
+        <a href="./blog.html">blog</a>
         <a href="#search"> search</a>
       </nav>
 
@@ -148,102 +153,177 @@
         <a href="#" class="fab fa-twitter"></a>
         <a href="#" class="fab fa-linkedin"></a>
       </div>
-    </div>
+    </div>  
 
     <!-- header section ends ---->
 
-    <!-- about section starts -->
 
-    <section class="about" id="about">
-      <h1 class="heading">About <span>Us</span></h1>
-      <div class="row">
-        <div data-aos="fade-right" data-aos-delay="400" id="image-slider" class="splide">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide" data-splide-interval="1000">
-                <img src="./image/about/a1.JPG" />
-              </li>
-              <li class="splide__slide" data-splide-interval="1000">
-                <img src="./image/about/a2.JPG" />
-              </li>
-              <li class="splide__slide" data-splide-interval="1000">
-                <img src="./image/about/a3.JPG" />
-              </li>
-            </ul>
+<!-- Our Team Section Starts -->
+
+
+
+<h1 class="heading">Our <span>Team</span></h1>
+<section class="our-team">
+  
+
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                      <div class="image-content">
+
+                          <span class="overlay"></span>
+
+                          <div class="card-image">
+                                <img src="./image/team/team-1.jpg" alt="" class="card-img">
+                          </div>
+
+                      </div>
+
+                      <div class="card-content">
+
+                              <h2 class="name">Syeda Quratulain MInstCPD</h2>
+                              <span class="title">Chief Executive Officer, Synapra</span>
+                              <p class="paragraph">Leadership Accredited Trainer The CPD Standards Office, UK MInstCPD, The Institute of CPD, UK</p>
+
+                              <button class="btn btn1">View More</button>
+
+                      </div>
+
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+
+                      <span class="overlay"></span>
+
+                      <div class="card-image">
+                            <img src="./image/team/team-2.webp" alt="" class="card-img">
+                      </div>
+
+                  </div>
+
+                  <div class="card-content">
+
+                          <h2 class="name">Naseer Uddin Khan</h2>
+                          <span class="title">Director</span>
+                          <p class="paragraph">Director Operation Synapra</p>
+
+                          <button class="btn">View More</button>
+
+                  </div>
+
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                        <img src="./image/team/team-3.webp" alt="" class="card-img">
+                  </div>
+
+              </div>
+
+              <div class="card-content">
+
+                      <h2 class="name">Hina Mujahid</h2>
+                      <span class="title">Director</span>
+                      <p class="paragraph">Director Business Consulting Synapra</p>
+
+                      <button class="btn">View More</button>
+
+              </div>
+
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                    <img src="./image/team/team-4.jpg" alt="" class="card-img">
+              </div>
+
           </div>
-        </div>
 
-        <div data-aos="fade-up" data-aos-delay="400" class="content">
+          <div class="card-content">
 
-          <h3>Why Choose Us ?</h3>
-          <p> Synapra is an official CPD Accredited Training Provider: 50343 with
-            The CPD Standards Office, UK We are serving as a self-reliant
-            Private organization which is registered in FBR as per the laws of
-            Government of Pakistan</p>
+                  <h2 class="name">
+                    Raheela Damani</h2>
+                  <span class="title">Trainings Head | Master Trainer Synapra</span>
+                  <p class="paragraph">Leadership Accredited Trainer ECED, CPDSO (UK) Certificate of Qualification in ECE Educator, Canada | Educationist | Author | Certified Parental Educator</p>
 
-      </div>
-      </div>
-      <!-- Navigation buttons outside the home-slider -->
-    </section>
+                  <button class="btn">View More</button>
 
-    <!-- about section ends ---->
-
-    <!-- our vision section starts -->
-
-    <section  class="our-vision">
-
-        <h1 class="heading">Our <span>Vision</span></h1>
-
-        <div class="row">
-
-
-            <div data-aos="fade-up" data-aos-delay="400" class="content">
-
-                <h3>OUR VISION</h3>
-                <p>We envision fastening togrther to outshine the wisdom</p>
-                <h3>OUR Mission</h1>
-                <p>Synapra Srrive to support the project through Skills-based technological advancements with Commitment, Excellence, Innovation & Integrity in a value-based enviromrnt.</p>
-
-            </div>
-            <div data-aos="fade-up" data-aos-delay="400" class="image">
-
-                <img src="./image/bootcamp/card-2.jpg" alt="">
-
-            </div>
+          </div>
 
         </div>
 
-    </section>
 
-    <section class="our-vision">
+        <div class="card swiper-slide">
+          <div class="image-content">
 
+              <span class="overlay"></span>
 
-        <div class="row">
+              <div class="card-image">
+                    <img src="./image/team/team-5.jpg" alt="" class="card-img">
+              </div>
 
-            <div data-aos="fade-up" data-aos-delay="400" class="image">
+          </div>
 
-                <img src="./image/bootcamp/card-3.jpg" alt="">
+          <div class="card-content">
 
-            </div>
+                  <h2 class="name">
+                    Rameesha Qureshi</h2>
+                  <span class="title">Officer</span>
+                  <p class="paragraph">Officer Business Consulting Synapra</p>
 
-            <div data-aos="fade-up" data-aos-delay="400" class="content">
+                  <button class="btn">View More</button>
 
-                <h3>OUR PHILOSOPHY</h3>
-                <p>We pirsure the mission to equip our generation with active & innovative modern skills. We promote an environment where success is achieved thorugh professional Development.. Synapra instills the role of information in congition with technological prespective.</p>
+          </div>
 
-            </div>
-            
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                    <img src="./image/team/team-4.webp" alt="" class="card-img">
+              </div>
+
+          </div>
+
+          <div class="card-content">
+
+                  <h2 class="name">
+                    Naheed Hashmi</h2>
+                  <span class="title">Master Trainer Synapra</span>
+                  <p class="paragraph">Leadership Accredited Trainer, CPDSO(UK) CIPED, Bradford University DTWICT, Cambridge University Educationist | Career Counsellor Curriculum Specialist</p>
+
+                  <button class="btn">View More</button>
+
+          </div>
 
         </div>
 
-    </section>
+            </div>
+        </div>
 
-    <!-- our vision section ends -->
+        <div class="swiper-button-next swiper-btn"></div>
+        <div class="swiper-button-prev swiper-btn"></div>
+        
+      </div>  
+      <div class="swiper-pagination"></div>
 
-    <!-- Logos Section Starts -->
+</section>
+
+<!-- Our Team Section Ends -->
 
 
-    <div style="background-color: #eee;" class="logos">
+
+    
+    <div style="background-color: #fff;" class="logos">
         <div class="logos-slide">
           <img src="./image/clients/clint-1-removebg-preview.png" alt="" />
           <img src="./image/clients/clint-2-removebg-preview.png" alt="" />
@@ -274,11 +354,7 @@
         </div>
       </div>
 
-
-
-    <!-- Logos Section Ends -->
-
-<!-- footer section starts -->
+      <!-- footer section starts -->
 
 <section class="footer">
     <div class="links">
@@ -332,44 +408,57 @@
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.7/dist/js/extensions/autoplay.min.js"></script>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   
   <!-- js file link -->
 
   <script src="app.js"></script>
   <script>
-    new Splide("#image-slider").mount();
+    
+    var swiper = new Swiper(".slide-content", {
+        slidesPerView: 3,
+        spaceBetween: 25,
+        slidesPerGroup: 3,
+        loop: true,
+        centerSlides:'true',
+        fade:'true',
+        grabCursor:'true',
+        autoplay:true, 
+         pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets:true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
 
-    var swiper = new Swiper(".reviews-slider", {
-loop: true,
-grabCursor: true,
-spaceBetween: 20,
-autoplay: {
-  delay: 3000, // Set the delay in milliseconds between slides
-  disableOnInteraction: false, // Set to false to continue autoplay even when the user interacts with the swiper
-},
-breakpoints: {
-  640: {
-    slidesPerView: 1,
-  },
-  768: {
-    slidesPerView: 2,
-  },
-  991: {
-    slidesPerView: 3,
-  },
-},
-});
+        breakpoints:{
+          0:{
+            slidesPerView:1
+          },
+          520:{
+            slidesPerView:2
+          },
+          950:{
+            slidesPerView:3
+          },
+        }
+      });
+    
 
   </script>
-  <script>
 
-    AOS.init({
-        duration: 800,
-    });
+<script>
+
+  AOS.init({
+      duration: 800,
+  });
 
 </script>
 </body>
 </html>
-
